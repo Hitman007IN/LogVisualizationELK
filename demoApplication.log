@@ -1,0 +1,16 @@
+2018-11-17 10:05:25 DEBUG MyLog4jConfiguration:20 - Log4j appender configuration is successful !!
+2018-11-17 10:05:56 DEBUG MyLog4jConfiguration:20 - Log4j appender configuration is successful !!
+2018-11-17 17:00:11 DEBUG MyLog4jConfiguration:19 - Log4j appender configuration is successful !!
+2018-11-17 17:00:11 ERROR MyLog4jConfiguration:27 - Exception occured:::Index: 3, Size: 0
+2018-11-17 17:06:59 DEBUG MyLog4jConfiguration:19 - Log4j appender configuration is successful !!
+2018-11-17 17:06:59 ERROR MyLog4jConfiguration:27 - Exception occured:::Index: 3, Size: 0
+2018-11-17 17:12:05 DEBUG MyLog4jConfiguration:19 - Log4j appender configuration is successful !!
+2018-11-17 17:12:05 ERROR MyLog4jConfiguration:27 - Exception occured:::Index: 3, Size: 0
+2018-11-18 18:16:41 DEBUG MyLog4jConfiguration:19 - Log4j appender configuration is successful !!
+2018-11-18 18:16:41 ERROR MyLog4jConfiguration:27 - Exception occured:::Index: 3, Size: 0
+2018-11-18 18:24:00 DEBUG MyLog4jConfiguration:19 - Log4j appender configuration is successful !!
+2018-11-18 18:24:00 ERROR MyLog4jConfiguration:27 - Exception occured:::Index: 3, Size: 0
+2018-11-18 18:43:39 DEBUG MyLog4jConfiguration:19 - Log4j appender configuration is successful !!
+2018-11-18 18:43:39 ERROR MyLog4jConfiguration:27 - Exception occured:::Index: 3, Size: 0
+2018-11-18 18:54:27 DEBUG MyLog4jConfiguration:19 - Log4j appender configuration is successful !!
+2018-11-18 18:54:27 ERROR MyLog4jConfiguration:27 - Exception occured:::Index: 3, Size: 0
