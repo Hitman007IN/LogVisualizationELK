@@ -1,22 +1,25 @@
 # LogVisualizationELK
 using ELK framework to visualize logs for java application
 
-1. Download Logstash, Kibana, Elastic search
+1. Sample log file generated as part of source code
+![alt text](https://github.com/Hitman007IN/LogVisualizationELK/blob/master/demoApplication.log)
 
-2. In logstash, create a file logstash.conf, which is added to the source code
+2. Download Logstash, Kibana, Elastic search
 
-3. Edit kibana.yml under config folder, with the following
-//The URL of the Elasticsearch instance to use for all your queries.
-elasticsearch.url: "http://localhost:9200"
+3. In logstash, create a file logstash.conf, which is added to the source code
 
-4. start logstash with the following
+4. Edit kibana.yml under config folder, with the following
+[alt text](https://github.com/Hitman007IN/LogVisualizationELK/blob/master/kibana.yml)
+
+5. start logstash with the following
+[alt text](https://github.com/Hitman007IN/LogVisualizationELK/blob/master/logstash.conf)
 ./logstash -f logstash.conf
 
-5. start elastic search
+6.start elastic search
 
 ![alt text](https://github.com/Hitman007IN/LogVisualizationELK/blob/master/elastic%20search.png)
 
-6. starts Kibana
+7. starts Kibana
 
 ![alt text](https://github.com/Hitman007IN/LogVisualizationELK/blob/master/kibana.png)
 
