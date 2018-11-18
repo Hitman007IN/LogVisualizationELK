@@ -1,7 +1,7 @@
 # LogVisualizationELK
 using ELK framework to visualize logs for java application
 
-1. ![Sample log](https://github.com/Hitman007IN/LogVisualizationELK/blob/master/demoApplication.log) file generated as part of source code
+1. [Sample log](https://github.com/Hitman007IN/LogVisualizationELK/blob/master/demoApplication.log) file generated as part of source code
 
 2. Download Logstash, Kibana, Elastic search
 
