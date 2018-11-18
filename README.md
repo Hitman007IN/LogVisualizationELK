@@ -17,7 +17,7 @@ input {
 }
  
 filter {
-  #If log line contains tab character followed by 'at' then we will tag that entry as stacktrace
+  //If log line contains tab character followed by 'at' then we will tag that entry as stacktrace
   if [message] =~ "\tat" {
     grok {
       match => ["message", "^(\tat)"]
@@ -45,7 +45,7 @@ output {
     codec => rubydebug
   }
  
-  # Sending properly parsed log events to elasticsearch
+  //Sending properly parsed log events to elasticsearch
   elasticsearch { 
      hosts => ["localhost:9200"] 
      index => "YOUR_INDEX_NAME-%{+YYYY.MM.dd}"
@@ -53,7 +53,7 @@ output {
 }
 
 3. Edit kibana.yml under config folder, with the following
-# The URL of the Elasticsearch instance to use for all your queries.
+//The URL of the Elasticsearch instance to use for all your queries.
 elasticsearch.url: "http://localhost:9200"
 
 4. start logstash with the following
@@ -61,11 +61,11 @@ elasticsearch.url: "http://localhost:9200"
 
 5. start elastic search
 
-![alt text](https://github.com/Hitman007IN/Python_Scripts/blob/master/python_logo.jpeg)
+![alt text](https://github.com/Hitman007IN/LogVisualizationELK/blob/master/elastic%20search.png)
 
 6. starts Kibana
 
-![alt text](https://github.com/Hitman007IN/Python_Scripts/blob/master/python_logo.jpeg)
+![alt text](https://github.com/Hitman007IN/LogVisualizationELK/blob/master/kibana.png)
 
 
 
